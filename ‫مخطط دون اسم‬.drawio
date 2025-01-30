@@ -59,12 +59,9 @@
           <mxGeometry x="310" y="210" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8YABR_l0edWi9X-4XDio-26" value="end" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
-          <mxGeometry x="260" y="610" width="120" height="30" as="geometry" />
+          <mxGeometry x="260" y="800" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8YABR_l0edWi9X-4XDio-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8YABR_l0edWi9X-4XDio-28" target="8YABR_l0edWi9X-4XDio-32">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="8YABR_l0edWi9X-4XDio-28" value="Ask Name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="8YABR_l0edWi9X-4XDio-28" value="Ask Number" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="490" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8YABR_l0edWi9X-4XDio-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8YABR_l0edWi9X-4XDio-30" target="8YABR_l0edWi9X-4XDio-28">
@@ -73,14 +70,73 @@
         <mxCell id="8YABR_l0edWi9X-4XDio-30" value="start" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
           <mxGeometry x="260" y="420" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8YABR_l0edWi9X-4XDio-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8YABR_l0edWi9X-4XDio-32" target="8YABR_l0edWi9X-4XDio-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="8YABR_l0edWi9X-4XDio-32" value="Print Name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="550" width="120" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="8YABR_l0edWi9X-4XDio-33" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;problem 3&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Write a program to ask the&amp;nbsp; user to enter an number&amp;nbsp; then print &quot;ODD &quot;if its odd ,&amp;nbsp; Or &quot; Even&quot; if its even.&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="320" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8YABR_l0edWi9X-4XDio-34" value="result = Num mod 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="550" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8YABR_l0edWi9X-4XDio-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8YABR_l0edWi9X-4XDio-35" target="8YABR_l0edWi9X-4XDio-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8YABR_l0edWi9X-4XDio-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8YABR_l0edWi9X-4XDio-35" target="8YABR_l0edWi9X-4XDio-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8YABR_l0edWi9X-4XDio-35" value="&amp;nbsp;result=0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8YABR_l0edWi9X-4XDio-37" value="Print&amp;nbsp; &quot;Even&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="690" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8YABR_l0edWi9X-4XDio-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.423;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.507;entryY=-0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8YABR_l0edWi9X-4XDio-37" target="8YABR_l0edWi9X-4XDio-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="590" as="sourcePoint" />
+            <mxPoint x="230" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="760" />
+              <mxPoint x="320" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8YABR_l0edWi9X-4XDio-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8YABR_l0edWi9X-4XDio-40" target="8YABR_l0edWi9X-4XDio-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="680" />
+              <mxPoint x="230" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8YABR_l0edWi9X-4XDio-40" value="YES" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="625" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8YABR_l0edWi9X-4XDio-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8YABR_l0edWi9X-4XDio-46" target="8YABR_l0edWi9X-4XDio-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="690" />
+              <mxPoint x="410" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8YABR_l0edWi9X-4XDio-46" value="NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="625" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8YABR_l0edWi9X-4XDio-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8YABR_l0edWi9X-4XDio-48" target="8YABR_l0edWi9X-4XDio-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8YABR_l0edWi9X-4XDio-48" value="Print &quot;ODD&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="690" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8YABR_l0edWi9X-4XDio-52" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8YABR_l0edWi9X-4XDio-28" target="8YABR_l0edWi9X-4XDio-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="650" as="sourcePoint" />
+            <mxPoint x="230" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8YABR_l0edWi9X-4XDio-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8YABR_l0edWi9X-4XDio-34" target="8YABR_l0edWi9X-4XDio-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="650" as="sourcePoint" />
+            <mxPoint x="230" y="600" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
